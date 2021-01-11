@@ -39,7 +39,7 @@ h1{
 .footer{
     margin: 20px auto;
     height: 36px;
-    width: 343px;
+    width: 100%;
     background: rgba(118, 118, 128, 0.24);
     border-radius: 10px;
     
@@ -50,6 +50,7 @@ h1{
     display: inline-block;
     vertical-align: middle;
     background-color: transparent;
+    width: 24px;
 }
 
 .search{

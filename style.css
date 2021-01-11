@@ -97,6 +97,7 @@ h1{
 
     height: 160px;
     width: 200px;
+    padding: 10px;
     display: inline-block;
     background: url(./img.svg);
     background-position: center;

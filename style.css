@@ -2,12 +2,17 @@
     font-family: Roboto;
 }
 
+.divcontainer{
+    box-sizing: border-box;
+    padding: 0px;
+    width: 375px;
+}
+
 
 .container{
-    width: 375px;
-    height: 180px;
+    box-sizing: border-box;
+    width: 100%;
     background-color: #1d1d1d;
-    margin: auto;
     padding: 16px;
     margin-top: 200px;
 
@@ -44,6 +49,8 @@ h1{
 .footer{
     margin: 10px auto;
     padding: 0px 10px;
+    display: grid;
+    grid-template-columns: 20px auto;
     box-sizing: border-box;
     height: 36px;
     width: 100%;
@@ -58,10 +65,11 @@ h1{
     vertical-align: middle;
     background-color: transparent;
     width: 20px;
+    margin: auto 0px;
 }
 
 .search{
-    width: 300px;
+    width: auto;
     height: 36px;
     color: #EBEBF5;
     display: inline-block;
@@ -71,4 +79,56 @@ h1{
     border-radius: 10px
 }
 
+.slider{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    background-color: #000;
+}
+
+.toptext{
+    float: right;
+    margin-right: 5px;
+}
+
+.images{
+
+    height: 160px;
+    width: 200px;
+    display: inline-block;
+    background: url(./img.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 14px;
+
+}
+
+.hearticone{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p{
+    margin-right: 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline-block;
+
+    
+}
+
+
+.text{
+    margin-top: 130px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+    
+}
 

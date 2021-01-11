@@ -1,38 +1,66 @@
 *{
-    font-family: roboto;
+    font-family: Roboto;
 }
 
-body{
-    padding: 0px;
-    margin: 0px;
- 
-
-}
 
 .container{
-    width: 100%;
-    padding: 5px;
-    white-space : nowrap;
-    overflow-x : scroll;
+    width: 375px;
+    height: 180px;
+    background-color: #1d1d1d;
+    margin: auto;
+    padding: 16px;
+    margin-top: 200px;
+
 }
 
-.card{
-    white-space : normal;
-    display : inline-block;
-    width: 440px;
-    border-radius: 12px;
-    margin: 20px;
-    padding: 50px;
-    box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+.title{
+    display: flex;
+    justify-content: space-between;
 }
 
 h1{
-    font-size: 44px;
-    font-weight: 500;
-    color: #23242A;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
 }
 
-a:hover{
-    cursor: pointer;
-    color:#0E6FFF;
+.photo{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: auto 0px;
+    background: url(./KhalidObaide.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.footer{
+    margin: 20px auto;
+    height: 36px;
+    width: 343px;
+    background: rgba(118, 118, 128, 0.24);
+    border-radius: 10px;
+    
+
+}
+
+.icone{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.search{
+    width: 300px;
+    height: 36px;
+    color: #EBEBF5;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+    border-radius: 10px
+}
+
+

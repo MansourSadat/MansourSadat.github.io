@@ -1,0 +1,39 @@
+*{
+    font-family: roboto;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.card{
+    width: 440px;
+    border-radius: 12px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 200px;
+    box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 500;
+    color:  black;    
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #23242A;
+}
+
+h4{
+    font-size: 21px;
+    font-weight: 700;
+    color: rgba(17, 19, 30, 0.2);
+}
+
+h4:hover{
+    color:#0E6FFF;
+}

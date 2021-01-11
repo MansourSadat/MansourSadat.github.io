@@ -37,7 +37,9 @@ h1{
 }
 
 .footer{
-    margin: 20px auto;
+    margin: 10px auto;
+    padding: 0px 10px;
+    box-sizing: border-box;
     height: 36px;
     width: 100%;
     background: rgba(118, 118, 128, 0.24);

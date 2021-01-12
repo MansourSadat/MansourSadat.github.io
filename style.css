@@ -136,14 +136,14 @@ p{
 
 .postcard{
     width: 100%;
-    height: 400px;
+    height: 600px;
     padding: 15px;
     box-sizing: border-box;
     background-color: #000;
 }
 
 .messages{
-    height: 250px;
+    height: 500px;
     width: 343px;
     box-sizing: border-box;
     border-radius: 14px;
@@ -215,4 +215,38 @@ p{
 .tags{
     font-size: 15px;
     font-weight: 400;
+}
+
+.img1{
+    height: 148px;
+    width: 148px;
+    border-radius: 14px;
+    background: url(./img\ 1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.img2{
+    height: 148px;
+    width: 148px;
+    border-radius: 14px;
+    background: url(./img\ 2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 2px;
+}
+
+.img3{
+    width: 100%;
+    height: 130px;
+    border-radius: 14px;
+    background: url(./img\ 2.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }

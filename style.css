@@ -147,7 +147,7 @@ p{
     box-sizing: border-box;
     border-radius: 14px;
     padding: 16px;
-    border: solid 2px gray;
+    border: 1px solid #1C1C1E;
 }
 
 .header{
@@ -155,6 +155,7 @@ p{
     height: 100px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: -20px;
     
 }
 
@@ -193,9 +194,10 @@ p{
     background-color: transparent;
     height: 32px;
     width: 62px;
+    cursor: pointer;
     border-radius: 8px;
     color: #0A84FF;
-    border-color: #0A84FF;
+    border: 1px solid #0A84FF;    
     font-size: 12px;
     font-weight: 600;
     margin: auto 0px;
@@ -204,6 +206,7 @@ p{
 
 .tagcontainer{
     font-size: 12px;
+    cursor: pointer;
     font-weight: 600;
     color: #0A84FF;
 }

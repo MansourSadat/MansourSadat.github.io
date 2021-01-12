@@ -3,6 +3,7 @@
 }
 
 .divcontainer{
+    margin: auto;
     box-sizing: border-box;
     padding: 0px;
     width: 375px;

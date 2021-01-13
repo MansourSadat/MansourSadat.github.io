@@ -97,10 +97,11 @@ h4{
 
 .datediv{
     float: right;
+    margin-top: -15px;
 }
 
 .arrow{
-    color: rgba(235, 235, 245, 0.6);
+    color: rgba(235, 235, 245, 0.6);    
     width: 20px;
     height: 20px;
     margin-bottom: -4px;
@@ -111,7 +112,6 @@ h4{
 .friendbio{
     font-weight: normal;
     font-size: 13px;
-    padding: 5px;
     margin-top: 10px;
     color: rgba(235, 235, 245, 0.6);
 }

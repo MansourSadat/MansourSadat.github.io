@@ -1,0 +1,100 @@
+*{
+    font-family: Roboto;
+}
+
+.divcontainer{
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px;
+    width: 375px;
+}
+
+
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    background: rgba(29, 29, 29, 0.94);
+    padding: 16px;
+    padding-bottom: 0px;
+    margin-top: 200px;
+
+}
+
+.date{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+}
+
+.photo{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: auto 0px;
+    background: url(./KhalidObaide.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body{
+    height: 500px;
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    background-color: #000;
+}
+
+.friend{
+    height: 90px;
+    border: 0.5px solid #545458;
+    display: grid;
+    padding: 16px;
+    grid-template-columns: 55px auto;
+}
+
+.friendphoto{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: auto 0px;
+    display: inline-block;
+    background: url(./img\ 2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.friendname{
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFF;
+    margin: auto 0px;
+    display: inline-block;
+}
+
+.messdate{
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.friendbio{
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgba(235, 235, 245, 0.6);
+}
+

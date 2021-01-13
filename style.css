@@ -136,10 +136,15 @@ p{
 
 .postcard{
     width: 100%;
-    height: 600px;
+    height: 650px;
     padding: 15px;
     box-sizing: border-box;
     background-color: #000;
+}
+
+.section3title{
+    font-weight: 700px;
+    font-size: 22px;
 }
 
 .messages{
@@ -217,36 +222,21 @@ p{
     font-weight: 400;
 }
 
-.img1{
-    height: 148px;
-    width: 148px;
-    border-radius: 14px;
+.imgdiv{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-areas: "img1 img2"
+                        "img3 img3";
+    grid-gap: 10px;
+    
+}
+
+.imgs{
+
     background: url(./img\ 1.svg);
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: inline-block;
-}
-
-.img2{
-    height: 148px;
-    width: 148px;
-    border-radius: 14px;
-    background: url(./img\ 2.svg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: inline-block;
-    margin: 2px;
-}
-
-.img3{
-    width: 100%;
-    height: 130px;
-    border-radius: 14px;
-    background: url(./img\ 2.svg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    border-radius: 14px;     
 }

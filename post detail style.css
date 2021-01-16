@@ -111,18 +111,20 @@ h1{
 .messagediv{
     display: inline-block;
     margin-top: 10px;
+    vertical-align: middle;
 }
 
-.message{
+.messageqty{
     color: rgba(235, 235, 245, 0.6);
     display: inline-block;
     font-size: 12px;
     font-weight: 400;
 }
 
-.massegeicone{
+.messageicone{
     height: 20px;
     width: 20px;
+    vertical-align: middle;
     display: inline-block;
 }
 
@@ -249,4 +251,33 @@ h1{
     font-weight: 600;
     font-size: 13px;
     color: #0A84FF;
+}
+
+.footersearchdiv{
+    height: 80px;
+    width: calc(100% - 32px);
+    padding: 16px;
+    background-color: rgba(29, 29, 29, 0.94);
+}
+
+.commentinput{
+    height: 36px;
+    width: 303px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgba(118, 118, 128, 0.24);
+    border: none;
+
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(235, 235, 245, 0.6);
+
+
+}
+
+.commenticone{
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-left: 3px;
 }

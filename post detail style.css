@@ -1,0 +1,252 @@
+*{
+    font-family: Roboto;
+}
+
+
+
+
+.wrapperdiv{
+    height: 850px;
+    width: 375px;
+    margin: auto;
+    background-color: gray;
+}
+
+.header{
+    height: 44px;
+    width: calc(100% - 20px); 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D1D1D;
+}
+
+.left{
+    margin-top: 3px;
+}
+
+h2{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    color: #0A84FF;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.backicone{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.middle{
+    margin-top: 8px;
+}
+
+h1{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.iconeright{
+    margin-top: 15px;
+    
+}
+
+.menuicone{
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.imgcontainer{
+    height: 335px;
+    width: calc(100% - 32px);
+    padding: 16px;
+    background-color: #000;
+    border-bottom: 0.5px solid #545458;
+}
+
+.img{
+    height: 274px;
+    width: 343px;
+    border-radius: 14px;
+    background: url(./images/img.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.containerfollowerdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.followerdiv{
+    padding: 10px;
+    display: inline-block;
+}
+
+.followersqty{
+    color: rgba(235, 235, 245, 0.6);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.eyeicone{
+     vertical-align: middle;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+
+.messagediv{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.message{
+    color: rgba(235, 235, 245, 0.6);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.massegeicone{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.right{
+    width: 150px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.lovediv{
+    padding: 10px;
+    display: inline-block;
+    margin-top: -3px;
+}
+
+.loveqty{
+    color: rgba(235, 235, 245, 0.6);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.hearticone{
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+
+}
+
+.commentscontainer{
+    height: 307px;
+    width: calc(100% - 32px);
+    padding: 16px;
+    background-color: #000;
+    overflow-y: scroll;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.followerscontainer{
+    height: 102px;
+    background-color: red;
+}
+
+.followerimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: url(./KhalidObaide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.friend{
+    height: 90px;
+    display: grid;
+    padding: 16px;
+    border-bottom: 0.5px solid #545458;
+    grid-template-columns: 55px auto;
+}
+
+.friendphoto{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background: url(./KhalidObaide.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.friendname{
+    font-size: 15px;
+    font-weight: 600;    
+    color: #FFF;
+    margin: auto 0px;
+    margin-bottom: -20px; 
+    display: inline-block;
+}
+
+
+.messdate{
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.datediv{
+    float: right;
+    margin-top: -15px;
+}
+
+.arrow{
+    color: rgba(235, 235, 245, 0.6);    
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+    display: inline-block; 
+}
+
+
+.friendbio{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: -10px;
+    color: #fff;
+}
+
+.commentdate{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: -10px;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.reply{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+    color: #0A84FF;
+}

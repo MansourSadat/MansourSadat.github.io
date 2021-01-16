@@ -22,13 +22,14 @@
 }
 
 .left{
-    margin-top: 3px;
+    margin-top: 10px;
 }
 
-h2{
+.backclick{
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
+    text-decoration: none;
     color: #0A84FF;
     font-size: 17px;
     font-weight: 400;
@@ -42,7 +43,7 @@ h2{
 }
 
 .middle{
-    margin-top: 8px;
+    margin: 0px auto;
 }
 
 h1{
@@ -53,8 +54,7 @@ h1{
 }
 
 .iconeright{
-    margin-top: 15px;
-    
+    margin: auto 0px;    
 }
 
 .menuicone{
@@ -183,7 +183,7 @@ h1{
     background-position: center;
 }
 .friend{
-    height: 90px;
+    height: auto;
     display: grid;
     padding: 16px;
     border-bottom: 0.5px solid #545458;
@@ -206,43 +206,21 @@ h1{
     font-weight: 600;    
     color: #FFF;
     margin: auto 0px;
-    margin-bottom: -20px; 
+    margin-bottom: 5px; 
     display: inline-block;
-}
-
-
-.messdate{
-    font-size: 15px;
-    font-weight: 400;
-    display: inline-block;
-    color: rgba(235, 235, 245, 0.6);
-}
-
-.datediv{
-    float: right;
-    margin-top: -15px;
-}
-
-.arrow{
-    color: rgba(235, 235, 245, 0.6);    
-    width: 20px;
-    height: 20px;
-    margin-bottom: -4px;
-    display: inline-block; 
 }
 
 
 .friendbio{
     font-size: 15px;
     font-weight: 400;
-    margin-bottom: -10px;
     color: #fff;
 }
 
 .commentdate{
     font-size: 12px;
+    display: block;
     font-weight: 400;
-    margin-bottom: -10px;
     color: rgba(235, 235, 245, 0.6);
 }
 
@@ -250,27 +228,33 @@ h1{
     cursor: pointer;
     font-weight: 600;
     font-size: 13px;
+    text-decoration: none;
     color: #0A84FF;
 }
 
 .footersearchdiv{
-    height: 80px;
+    height: auto;
     width: calc(100% - 32px);
+    display: grid;
+    grid-template-columns: auto 35px;
     padding: 16px;
     background-color: rgba(29, 29, 29, 0.94);
 }
 
 .commentinput{
     height: 36px;
-    width: 303px;
-    padding: 7px;
+    width: 285px;
+    display: grid;
+    grid-template-rows: auto 35;
+    padding: 5px 17px;
     border-radius: 10px;
+    display: inline-block;
     background-color: rgba(118, 118, 128, 0.24);
     border: none;
 
     font-size: 17px;
     font-weight: 400;
-    color: rgba(235, 235, 245, 0.6);
+    color: #fff;
 
 
 }
@@ -278,6 +262,7 @@ h1{
 .commenticone{
     cursor: pointer;
     height: 18px;
+    margin:auto 10px;
+    display: inline-block;
     width: 18px;
-    margin-left: 3px;
 }

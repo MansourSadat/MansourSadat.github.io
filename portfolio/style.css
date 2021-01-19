@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+    box-sizing: border-box; 
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.wrapperdiv{
+    padding: 88px;
+    height: 100vh;
+    width: 100%;
+    background-color: #2D9CDB;
+    background-image: url(./images/Vector\ 1.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divcontainer{
+    text-align: center;
+    padding: 10px;
+    margin-left: -300px;
+}
+
+.name{
+    color: #FFFDFA;
+    font-weight: 600;
+    font-size: 120px; 
+}
+
+
+.ditail{
+    font-weight: 600;
+    margin-top: 72px;
+    font-size: 36px;
+    color: #CBBDFF;
+}
+
+.aboutus{
+    height: 81px;
+    width: 342px;
+    border-radius:84px;
+    background-color: #F2C94C;
+    border: none;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFF;
+    margin-top: 105px;
+}
+
+.mybiowrapper{
+    height: 100%;
+    padding: 88px;
+    width:100vw;
+    background-color:#2D9CDB; 
+}
+
+.myname{ 
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    color: #FFFFFF;
+}
+
+.imgdiv{
+    width: 532px;
+    height: 730px;
+    margin-top: -645px;
+    display: inline-block;
+    background: url(./images/Portrait\ 1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutme{
+    font-weight: 500;
+    font-size: 36px;
+    margin-left: 650px;
+    display: inline-block;
+    color: #FFFFFF;
+}

@@ -1,0 +1,36 @@
+body{
+    padding: 10px;
+    background-color: gray;
+}
+
+.page{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height:44vw;
+    width: 80%;
+    background-color: white;
+    padding:20px;
+    padding-left:20px;
+    display:inline-block;
+
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.detail{
+    font-size: 18px;
+}
+button{
+    display:inline-block;
+    vertical-align: top;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

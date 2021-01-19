@@ -80,9 +80,9 @@ body{
     border: none;
     height: 56px;
     color: #fff;
-    width: 343px;
+    width: 200px;
     border-radius: 14px;
-    background-color: #007AFF;
+    background-color: red;
 }
 
 .option2{
@@ -95,5 +95,5 @@ body{
     cursor: pointer;
     font-size: 15px;
     font-weight: 600;
-    color: #007AFF;
+    color: red;
 }

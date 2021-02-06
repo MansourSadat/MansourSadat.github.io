@@ -1,0 +1,310 @@
+*{
+    padding: 0px;
+    font-family: roboto;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 120px;
+}
+
+
+.wrapperdiv{
+    width: 100%;
+    background: #fff; 
+}
+
+.detail{
+    font-weight: bold;
+    margin-bottom: 100px;
+    font-size: 64px;
+    color: #14142B
+
+}
+
+span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #6E7191;
+}
+
+.colordetail{
+    font-weight: bold;
+    font-size: 48px;
+    color: #14142B; 
+}
+
+.grayscalediv{
+    margin-top: 100px;
+    height: 886px;  
+    width:100%;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin-bottom: 100px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.colordiv{
+    Width: 85%;
+    Height: 80%;
+    background: #FFFFFF;
+    padding-left: 30px;
+    box-shadow: 0px 32px 64px rgba(17, 17, 17, 0.08);
+    border-radius: 32px; 
+   
+}
+
+.color{
+    height: 60%;
+    width: calc(100% + 30px);
+    border-radius: 32px;
+    margin-left: -30px;
+    margin-bottom: 20px;
+    
+}
+
+#color1{
+    background-color: #14142B;
+}
+
+#color2{
+   background-color:#4E4B66;  
+}
+
+#color3{
+    background-color: #6E7191;
+}
+
+#color4{
+    background-color: #A0A3BD;  
+}
+
+#color5{
+    background-color: #D9DBE9;
+}
+
+#color6{
+    background-color: #EFF0F7;  
+}
+
+#color7{
+    background-color: #F7F7FC;
+}
+
+#color8{
+    background-color: #FCFCFC;
+}
+
+
+.colorname{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: block;
+    color: #000000;
+}
+
+.colorbio{
+    font-weight: normal;
+    font-size: 19px;
+    color: #66738F;
+    
+}
+
+.detailcolors{
+font-weight: bold;
+font-size: 48px;
+color: #14142B;
+}
+
+
+.section2{
+    width: 100%;
+    height: 866px;
+    display: grid;
+    margin-top: 150px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+.biodiv{
+    Width: 85%;
+    Height: 80%;
+    background: #FFFFFF;
+    padding-left: 30px;
+    margin-bottom: -100px;
+    box-shadow: 0px 32px 64px rgba(17, 17, 17, 0.08);
+    border-radius: 32px; 
+}
+
+.bioheader{
+    height: 60%;
+    width: calc(100% + 30px);
+    border-radius: 32px;
+    padding-left: 20px;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+
+
+.use{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: block;
+    color: #000000;
+}
+
+.usefor{
+    font-weight: normal;
+    font-size: 19px;
+    color: #66738F;
+    
+}
+
+#header1{
+    background-color:  #5F2EEA;
+}
+
+#header2{
+    background-color: #1CC8EE;
+}
+
+#header3{
+    background-color: #ED2E7E;
+}
+
+#header4{
+    background-color: #00BA88;
+}
+
+#header5{
+    background-color: #F4B740;
+}
+
+#header6{
+    background-image: linear-gradient(to right, #974bf7,#e88bf5);
+}
+
+#header7{
+    background-image: linear-gradient(to right, #6559e5,#57c7c2);
+}
+
+#header8{
+    background-image: linear-gradient(to right, #ed0f55,#fee57a);
+}
+
+.drops{
+    margin-top: ;
+}
+
+.drop1a1{
+    fill:#2A00A2;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop1a2{
+    height: px;
+    fill: #BCA4FF;
+    stroke: none;
+}
+
+.drop1a1{
+    fill:#2A00A2;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop1a2{
+    height: px;
+    fill: #BCA4FF;
+    stroke: none;
+}
+
+.drop2a1{
+    fill:#0096B7;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop2a2{
+    height: px;
+    fill: #82E9FF;
+    stroke: none;
+}
+
+.drop3a1{
+    fill:#C30052;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop3a2{
+    height: px;
+    fill:  #FF84B7;
+    stroke: none;
+}
+
+.drop4a1{
+    fill:#00966D;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop4a2{
+    height: px;
+    fill: #34EAB9;
+    stroke: none;
+}
+
+.drop5a1{
+    fill:#946200;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop5a2{
+    height: px;
+    fill:  #FFD789;
+    stroke: none;
+}
+
+.drop6a1{
+    fill:#2A00A2;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop6a2{
+    height: px;
+    fill: #5F2EEA;
+    stroke: none;
+}
+
+.drop7a1{
+    fill:#624AF2;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop7a2{
+    height: px;
+    fill: #82E9FF;
+    stroke: none;
+}
+
+.drop8a1{
+    fill: #ED2E7E;
+    margin-top: 150px;
+    stroke: none; 
+}
+
+.drop8a2{
+    height: px;
+    fill: #FFD789;;
+    stroke: none;
+}
+

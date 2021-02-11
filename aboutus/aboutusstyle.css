@@ -77,43 +77,6 @@ a{
     background-repeat: no-repeat;
 
 } 
-@media (max-width : 1013px){
-    body{
-        padding: 30px;
-    }
-    
-    .header-bio-container{
-
-        grid-template-areas: "second" "first";
-    }
-    .img-div{
-        text-align: center;
-    }
-
-    .biodiv{
-        text-align: center;
-       
-    }
-
-    .downloadbtn{
-        margin: auto;
-    }
-
-    .view{
-        display: none;
-    }
-
-    .post-card{
-        width: auto;
-        
-    }
-
-    .works{
-        height: auto;
-    }
-
-    
-}
 
 .posts{
     width: 100%;
@@ -130,7 +93,10 @@ a{
     
 }
 
-
+.post-cards-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
 .posts-title{
     font-weight: normal;
@@ -151,7 +117,7 @@ a{
     width: 418px;
     display: inline-block;
     text-align: left;    
-    padding: 30px;  max-width: 70%;
+    padding: 30px; 
     margin: 20px;
     border-radius: 4px;
     background-color: #FFF;
@@ -229,6 +195,7 @@ a{
     margin:0px auto;
     width: 300px;
    display: flex;
+   max-width: 100%;
     justify-content: space-between;
 }
 
@@ -241,6 +208,61 @@ a{
 .footer-text{
     font-size: 14px;
     color: #21243D;
+    max-width: 100%;
     display: block;
+}
+@media (max-width : 1206px){
+    .post-cards-div{
+        grid-template-columns: 100%;
+        width: 100%;
+        margin: 20px 0px;
+
+    }
+
+}
+
+
+
+@media (max-width : 1013px){
+    body{
+        padding: 30px;
+    }
+
+    .headeroptions{
+        display: none;
+    }
+    
+    .header-bio-container{
+
+        grid-template-areas: "second" "first";
+    }
+    .img-div{
+        text-align: center;
+    }
+
+    .biodiv{
+        text-align: center;
+       
+    }
+
+    .downloadbtn{
+        margin: auto;
+    }
+
+    .view{
+        display: none;
+    }
+
+    
+    .post-card{
+        width: auto;
+        
+    }
+
+    .works{
+        height: auto;
+    }
+
+    
 }
 

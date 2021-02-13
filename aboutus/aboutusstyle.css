@@ -333,3 +333,11 @@ a{
         display: none;
     }
 }
+
+/* this is the work page start */
+
+.page-title{
+    font-weight: 900;
+    font-size: 44px;
+    color: #21243D;
+}

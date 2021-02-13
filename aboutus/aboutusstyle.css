@@ -227,9 +227,6 @@ a{
 
 
 @media (max-width : 1013px){
-    body{
-        padding: 0px;
-    }
 
     .headeroptions{
         display: none;
@@ -329,6 +326,9 @@ a{
 }
 
 @media (max-width : 1013px){
+    body{
+        padding: 20px;
+    }
     .blog-header-options{
         display: none;
     }

@@ -232,6 +232,10 @@ a{
         display: none;
     }
 
+    .header2-options{
+        display: none;
+    }
+
     .menu-img{
         display: block;
     }
@@ -269,10 +273,6 @@ a{
         height: auto;
     }
 
-    .work-image{
-        width: 100%;
-        border-radius: 6px;
-    }
 
     
 }
@@ -334,10 +334,61 @@ a{
     }
 }
 
-/* this is the work page start */
+/* this is the work2 page start */
 
 .page-title{
     font-weight: 900;
     font-size: 44px;
     color: #21243D;
+}
+
+.work2-body{
+    padding: 235px;
+    text-align: left;
+}
+
+.header2-options{
+    width: 300px;
+    float: right;
+    margin-top: -200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.work2-image{
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/KhalidObaide.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.work2-detail{
+    vertical-align: top;
+    margin-top: 100px;
+    display: inline-block;
+    
+}
+
+.title1{
+    font-weight: 500;
+    font-size: 30px;
+    color: #21243D;
+}
+
+.title2{
+    font-weight: 500;
+    font-size: 24px;
+    color: #21243D;
+}
+
+@media (max-width : 1010px){
+    .work2-body{
+        padding: 0px;
+    }
 }

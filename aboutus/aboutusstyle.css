@@ -391,4 +391,8 @@ a{
     .work2-body{
         padding: 0px;
     }
+
+    .work2-image{
+        height: 500px;
+    }
 }

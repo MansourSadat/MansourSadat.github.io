@@ -396,3 +396,9 @@ a{
         height: 500px;
     }
 }
+
+@media (max-width : 498px){
+    .work2-image{
+        height: 300px;
+    }
+}
